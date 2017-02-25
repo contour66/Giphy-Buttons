@@ -2,28 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Sports</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- <style type="text/css" src="assets/css/styles.css"></style>
+  <title>Dog Gifs</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+<<link href="https://fonts.googleapis.com/css?family=Bangers|Permanent+Marker" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <h1>Dog Search</h1>
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><h1></h1></div>
+    <div class="col-md-4"></div>
+    </div>
     <!-- Dogs will get dumped here -->
     <div id="sports-view"></div>
     <form id="sports-form">
-      <label for="sports-input">Search Some Dogs</label>
+    <!--   <label for="sports-input">Search Some Dogs</label> -->
+     <!-- Button triggers new sport to be added -->
+      <input id="add-sports" type="submit" value="Add Dog">
       <input type="text" id="sports-input"><br>
-      <!-- Button triggers new sport to be added -->
-      <input id="add-sports" type="submit" value="Search Some Dogs">
-    </form>
-    <div id="gifs-appear-here">
-    </div>
-    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/buttons.js"></script>
+
      
-      
-    
+    </form>
+    <div id="gifs-appear-here"></div>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/buttons.js"></script>  
   </div>
 </body>
 </html>

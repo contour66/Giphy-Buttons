@@ -12,9 +12,10 @@ function renderButtons() {
     // This code $("<button>") is all jQuery needs to create the start and end tag. (<button></button>)
     var a = $("<button>");
     // Adding a class
-    a.addClass("sports");
+    a.addClass("sports btn-default");
     // Adding a data-attribute with a value of the sports at index i
     a.attr("data-name", sports[i]);
+
 
     console.log();
     // Providing the button's text with a vatlue of the sport at index i
@@ -58,6 +59,7 @@ $("#sports-view").on("click", ".sports", function() {
     // Make a div with jQuery and store it in a variable named sportsDiv.
     var sportsDiv= $("<div>");
     // Make a paragraph tag with jQuery and store it in a variable named p.
+    sportsDiv.addClass("col-md-6")
     var p = $("<p>");
     // Set the inner text of the paragraph to the rating of the image in results[i].
     p.text("Rating: " + results[i].rating);
@@ -92,6 +94,7 @@ $("#sports-view").on("click", ".sports", function() {
         $(this).attr("data-state", "animate");
         // console.log(animate);
       } 
+      
       else {
         $(this).attr("src", $(this).attr("data-still"));
         $(this).attr("data-state", "still");
@@ -100,18 +103,6 @@ $("#sports-view").on("click", ".sports", function() {
     });
   
   });
-
-
-
-     //If state does not equal 'still', then update the src attribute of this
-// image to it's data-animate value and update the data-state attribute to 'still'
-//    else { 
-
-// /self.attr("src", self.attr("data-still"));
-
-// self.data("state", "still");
-
-// }
 
 });
 

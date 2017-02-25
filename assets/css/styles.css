@@ -1,0 +1,73 @@
+body {
+	background-image: url("../images/bg.jpg");
+}
+
+
+h1 {
+	
+	background-image: url("../images/logo.png");
+	height: 200px;
+	width: 500px;
+	background-repeat: no-repeat;
+	opacity: .8;
+}
+
+
+button, .btn-default {
+	margin: 10px;
+	background-color: #fbe1c9;
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-family: 'Bangers', cursive;
+	padding: 10px;
+}
+
+#sports-view {
+	position: relative;	
+}
+
+p {
+	color: #fbe1c9;
+	background-color: #995949;
+	max-width: 120px;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 5px;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+
+#sports-input {
+
+	color: black;
+	background-color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+}
+
+#add-sports {
+
+	color:black;
+	background-color: #bf9268;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+label {
+ 	background-color: #fbe1c9;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	margin-top: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+ }
